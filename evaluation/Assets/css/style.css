@@ -1,8 +1,11 @@
+
+*,
 ::after,
 ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 ul {
@@ -12,6 +15,7 @@ ul {
 li {
   display: inline;
   margin-left: 20px;
+  color: #666;
   transition: 0.5s;
 }
 
@@ -19,6 +23,7 @@ li:hover {
   cursor: pointer;
   color: #ff4b4bed;
 }
+
 @font-face {
   font-family: inter-regular;
   src: url("../fonts/Inter-Regular.ttf");
@@ -36,6 +41,7 @@ body {
   font-family: inter-regular;
   overflow-x: hidden;
 }
+
 .overlay {
   display: none;
   position: absolute;
@@ -45,10 +51,12 @@ body {
   background: #000000b3;
   transition: 0.5s;
 }
+
 .container {
   width: 85vw;
   margin: 0 auto;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -75,6 +83,7 @@ nav {
   height: 100%;
   object-fit: contain;
 }
+
 @media screen and (max-width: 640px) {
   .container {
     width: 95vw;
