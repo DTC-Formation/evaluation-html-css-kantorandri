@@ -3,3 +3,10 @@
     margin: 10;
     box-sizing: border-box;
 }
+body{
+    background-color: #ece4e4;
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+    display: flexbox;
+}
